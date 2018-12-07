@@ -349,7 +349,7 @@ div.promo-contenedor img {
   height: auto;
   align-self: center;
 
-  /* border: 3px solid orange; */
+  border: 3px solid orange;
 }
 
 div.promo-contenedor div.info-comida {
@@ -361,12 +361,18 @@ div.promo-contenedor div.info-comida {
 
   /* border: 1px solid blue; */
 }
+div.info-comida h4 {
+  color: orange;
+  text-shadow: 2px 2px grey;
+}
 div.info-comida h4,
 div.info-comida p + p {
   text-align: center;
   text-transform: uppercase;
   margin: 0;
+  font-weight: bold;
 }
+
 div.promo-contenedor div.precio {
   display: flex;
   align-items: center;
